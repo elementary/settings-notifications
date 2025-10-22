@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-25 23:30+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/sv/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/notifications.metainfo.xml.in:10
 msgid "Notifications Settings"
-msgstr ""
+msgstr "Aviseringsinställningar"
 
 #: data/notifications.metainfo.xml.in:11
 msgid "Configure notification bubbles, sounds, and notification center"
@@ -37,15 +37,15 @@ msgstr "Mindre uppdateringar:"
 
 #: data/notifications.metainfo.xml.in:36
 msgid "Updated illustrations with better RTL support"
-msgstr ""
+msgstr "Uppdaterade illustrationer med bättre RTL-stöd"
 
 #: data/notifications.metainfo.xml.in:37
 msgid "More responsive layout"
-msgstr ""
+msgstr "Mer responsiv layout"
 
 #: data/notifications.metainfo.xml.in:38
 msgid "Don't block settings when Do Not Disturb is active"
-msgstr ""
+msgstr "Blockera inte inställningar när Stör ej är aktiverat"
 
 #: data/notifications.metainfo.xml.in:39 data/notifications.metainfo.xml.in:53
 #: data/notifications.metainfo.xml.in:60 data/notifications.metainfo.xml.in:66
@@ -54,4 +54,4 @@ msgstr "Uppdaterade översättningar"
 
 #: data/notifications.metainfo.xml.in:52
 msgid "New illustrations"
-msgstr ""
+msgstr "Nya illustrationer"
