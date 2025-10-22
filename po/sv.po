@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-25 23:30+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-23 12:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "notifications/sv/>\n"
@@ -21,7 +21,7 @@ msgstr "Aviseringar"
 
 #: src/Plug.vala:22
 msgid "Configure notification bubbles, sounds, and notification center"
-msgstr "Ställ in notifikationsbubblor, ljud och notifikationscenter"
+msgstr "Konfigurera aivseringsbubblor, ljud och aviseringscenter"
 
 #: src/Plug.vala:44
 msgid "Apps with configurable notifications will appear here once installed."
@@ -82,7 +82,7 @@ msgstr "Ljud"
 
 #: src/Widgets/AppSettingsView.vala:54
 msgid "Sounds play once when a new notification arrives."
-msgstr "Ljud spelas upp en gång när en ny notifikation visas."
+msgstr "Ljud spelas upp en gång när en ny avisering visas."
 
 #: src/Widgets/AppSettingsView.vala:59 src/Widgets/AppEntry.vala:77
 msgid "Notification Center"
@@ -90,7 +90,7 @@ msgstr "Aviseringscenter"
 
 #: src/Widgets/AppSettingsView.vala:60
 msgid "Show missed notifications in Notification Center."
-msgstr "Visa missade notifikationer i notifikationscentret."
+msgstr "Visa missade aviseringar i aviseringscentret."
 
 #: src/Widgets/AppEntry.vala:81
 msgid "Disabled"
