@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-25 23:30+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "notifications/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: src/Plug.vala:21
 msgid "Notifications"
-msgstr "Notifikationer"
+msgstr "Aviseringar"
 
 #: src/Plug.vala:22
 msgid "Configure notification bubbles, sounds, and notification center"
@@ -25,30 +25,25 @@ msgstr "Ställ in notifikationsbubblor, ljud och notifikationscenter"
 
 #: src/Plug.vala:44
 msgid "Apps with configurable notifications will appear here once installed."
-msgstr ""
+msgstr "Appar med konfigurerbara aviseringar visas här när de har installerats."
 
 #: src/Plug.vala:45
-#, fuzzy
-#| msgid ""
-#| "Notifications preferences are for configuring which apps make use of "
-#| "notifications, for changing how an app's notifications appear,\n"
-#| "and for setting when you do not want to be disturbed by notifications."
 msgid ""
 "Notifications preferences are for configuring which apps make use of "
 "notifications, for changing how an app's notifications appear, and for "
 "setting when you do not want to be disturbed by notifications."
 msgstr ""
-"Notifikationsinställningar ställer in vilka program som använder "
-"notifikationer, för att ändra hur ett programs notifikationer ser ut\n"
-"och för att ställa in när du inte vill bli störd."
+"Inställningar för aviseringar används för att konfigurera vilka appar som "
+"använder aviseringar, för att ändra hur en apps aviseringar visas och för "
+"att ställa in när du inte vill bli störd av aviseringar."
 
 #: src/Plug.vala:79 src/Widgets/Sidebar.vala:67
 msgid "Do Not Disturb"
-msgstr "Stör ej"
+msgstr "Stör inte"
 
 #: src/Plug.vala:80
 msgid "Notifications Center"
-msgstr "Notifikationscenter"
+msgstr "Aviseringscenter"
 
 #: src/Plug.vala:81
 msgid "Sound"
@@ -64,20 +59,16 @@ msgid "Search Apps"
 msgstr "Sök efter appar"
 
 #: src/Widgets/AppSettingsView.vala:33
-#, fuzzy
-#| msgid "Do Not Disturb"
 msgid "Do Not Disturb is active"
-msgstr "Stör ej"
+msgstr "Stör inte är aktiv"
 
 #: src/Widgets/AppSettingsView.vala:36
-#, fuzzy
-#| msgid ""
-#| "System notifications, such as volume and display brightness, will be "
-#| "unaffected."
 msgid ""
 "Bubbles will be hidden and sounds will be silenced. System notifications, "
 "such as volume and display brightness, will be unaffected."
-msgstr "Systemmeddelanden, som volym och skärmens ljusstyrka, påverkas inte."
+msgstr ""
+"Bubblor kommer att döljas och ljud kommer att tystna. Systemmeddelanden, "
+"t.ex. volym och ljusstyrka, påverkas inte."
 
 #: src/Widgets/AppSettingsView.vala:48
 msgid ""
@@ -95,7 +86,7 @@ msgstr "Ljud spelas upp en gång när en ny notifikation visas."
 
 #: src/Widgets/AppSettingsView.vala:59 src/Widgets/AppEntry.vala:77
 msgid "Notification Center"
-msgstr "Notifikationscenter"
+msgstr "Aviseringscenter"
 
 #: src/Widgets/AppSettingsView.vala:60
 msgid "Show missed notifications in Notification Center."
