@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-25 23:30+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-23 12:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/sv/>\n"
@@ -25,7 +25,7 @@ msgstr "Aviseringsinställningar"
 
 #: data/notifications.metainfo.xml.in:11
 msgid "Configure notification bubbles, sounds, and notification center"
-msgstr "Ställ in notifikationsbubblor, ljud och notifikationscenter"
+msgstr "Konfigurera aivseringsbubblor, ljud och aviseringscenter"
 
 #: data/notifications.metainfo.xml.in:26
 msgid "elementary, Inc."
@@ -45,7 +45,7 @@ msgstr "Mer responsiv layout"
 
 #: data/notifications.metainfo.xml.in:38
 msgid "Don't block settings when Do Not Disturb is active"
-msgstr "Blockera inte inställningar när Stör ej är aktiverat"
+msgstr "Blockera inte inställningar när \"Stör inte\" är aktiverat"
 
 #: data/notifications.metainfo.xml.in:39 data/notifications.metainfo.xml.in:53
 #: data/notifications.metainfo.xml.in:60 data/notifications.metainfo.xml.in:66
