@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-25 23:30+0000\n"
-"PO-Revision-Date: 2025-10-23 12:55+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/sv/>\n"
@@ -25,7 +25,7 @@ msgstr "Aviseringsinställningar"
 
 #: data/notifications.metainfo.xml.in:11
 msgid "Configure notification bubbles, sounds, and notification center"
-msgstr "Konfigurera aivseringsbubblor, ljud och aviseringscenter"
+msgstr "Konfigurera aviseringsbubblor, ljud och aviseringscenter"
 
 #: data/notifications.metainfo.xml.in:26
 msgid "elementary, Inc."
