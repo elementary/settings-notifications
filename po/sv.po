@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 23:30+0000\n"
+"POT-Creation-Date: 2025-10-30 17:20+0000\n"
 "PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
@@ -25,7 +25,8 @@ msgstr "Konfigurera aviseringsbubblor, ljud och aviseringscenter"
 
 #: src/Plug.vala:44
 msgid "Apps with configurable notifications will appear here once installed."
-msgstr "Appar med konfigurerbara aviseringar visas här när de har installerats."
+msgstr ""
+"Appar med konfigurerbara aviseringar visas här när de har installerats."
 
 #: src/Plug.vala:45
 msgid ""
