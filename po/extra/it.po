@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 23:30+0000\n"
+"POT-Creation-Date: 2025-10-30 17:20+0000\n"
 "PO-Revision-Date: 2024-08-07 18:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
@@ -31,27 +31,33 @@ msgstr "Configura le bolle di notifica, i suoni e il centro notifiche"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:50
+#: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:44
+#: data/notifications.metainfo.xml.in:60
 msgid "Minor updates:"
 msgstr "Aggiornamenti minori:"
 
 #: data/notifications.metainfo.xml.in:36
-msgid "Updated illustrations with better RTL support"
+msgid "Restore sidebar position"
 msgstr ""
 
-#: data/notifications.metainfo.xml.in:37
-msgid "More responsive layout"
-msgstr ""
-
-#: data/notifications.metainfo.xml.in:38
-msgid "Don't block settings when Do Not Disturb is active"
-msgstr ""
-
-#: data/notifications.metainfo.xml.in:39 data/notifications.metainfo.xml.in:53
-#: data/notifications.metainfo.xml.in:60 data/notifications.metainfo.xml.in:66
+#: data/notifications.metainfo.xml.in:37 data/notifications.metainfo.xml.in:49
+#: data/notifications.metainfo.xml.in:63 data/notifications.metainfo.xml.in:70
+#: data/notifications.metainfo.xml.in:76
 msgid "Updated translations"
 msgstr "Traduzioni aggiornate"
 
-#: data/notifications.metainfo.xml.in:52
+#: data/notifications.metainfo.xml.in:46
+msgid "Updated illustrations with better RTL support"
+msgstr ""
+
+#: data/notifications.metainfo.xml.in:47
+msgid "More responsive layout"
+msgstr ""
+
+#: data/notifications.metainfo.xml.in:48
+msgid "Don't block settings when Do Not Disturb is active"
+msgstr ""
+
+#: data/notifications.metainfo.xml.in:62
 msgid "New illustrations"
 msgstr ""
