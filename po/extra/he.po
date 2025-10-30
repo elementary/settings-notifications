@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-30 17:20+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2025-10-31 17:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/he/>\n"
 "Language: he\n"
@@ -38,7 +38,7 @@ msgstr "עדכונים משניים:"
 
 #: data/notifications.metainfo.xml.in:36
 msgid "Restore sidebar position"
-msgstr ""
+msgstr "שחזור מקום סרגל צד"
 
 #: data/notifications.metainfo.xml.in:37 data/notifications.metainfo.xml.in:49
 #: data/notifications.metainfo.xml.in:63 data/notifications.metainfo.xml.in:70
