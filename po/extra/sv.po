@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 23:30+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"POT-Creation-Date: 2025-10-30 17:20+0000\n"
+"PO-Revision-Date: 2025-10-31 17:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/sv/>\n"
 "Language: sv\n"
@@ -31,27 +31,33 @@ msgstr "Konfigurera aviseringsbubblor, ljud och aviseringscenter"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:50
+#: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:44
+#: data/notifications.metainfo.xml.in:60
 msgid "Minor updates:"
 msgstr "Mindre uppdateringar:"
 
 #: data/notifications.metainfo.xml.in:36
-msgid "Updated illustrations with better RTL support"
-msgstr "Uppdaterade illustrationer med bättre RTL-stöd"
+msgid "Restore sidebar position"
+msgstr "Återställ sidofältets position"
 
-#: data/notifications.metainfo.xml.in:37
-msgid "More responsive layout"
-msgstr "Mer responsiv layout"
-
-#: data/notifications.metainfo.xml.in:38
-msgid "Don't block settings when Do Not Disturb is active"
-msgstr "Blockera inte inställningar när \"Stör inte\" är aktiverat"
-
-#: data/notifications.metainfo.xml.in:39 data/notifications.metainfo.xml.in:53
-#: data/notifications.metainfo.xml.in:60 data/notifications.metainfo.xml.in:66
+#: data/notifications.metainfo.xml.in:37 data/notifications.metainfo.xml.in:49
+#: data/notifications.metainfo.xml.in:63 data/notifications.metainfo.xml.in:70
+#: data/notifications.metainfo.xml.in:76
 msgid "Updated translations"
 msgstr "Uppdaterade översättningar"
 
-#: data/notifications.metainfo.xml.in:52
+#: data/notifications.metainfo.xml.in:46
+msgid "Updated illustrations with better RTL support"
+msgstr "Uppdaterade illustrationer med bättre RTL-stöd"
+
+#: data/notifications.metainfo.xml.in:47
+msgid "More responsive layout"
+msgstr "Mer responsiv layout"
+
+#: data/notifications.metainfo.xml.in:48
+msgid "Don't block settings when Do Not Disturb is active"
+msgstr "Blockera inte inställningar när \"Stör inte\" är aktiverat"
+
+#: data/notifications.metainfo.xml.in:62
 msgid "New illustrations"
 msgstr "Nya illustrationer"

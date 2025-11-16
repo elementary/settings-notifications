@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-25 23:30+0000\n"
-"PO-Revision-Date: 2024-06-06 08:56+0000\n"
-"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
+"POT-Creation-Date: 2025-10-30 17:20+0000\n"
+"PO-Revision-Date: 2025-10-31 17:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: French <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/notifications.metainfo.xml.in:10
 msgid "Notifications Settings"
@@ -33,29 +33,35 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:50
+#: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:44
+#: data/notifications.metainfo.xml.in:60
 msgid "Minor updates:"
 msgstr "Mises à jour mineures :"
 
 #: data/notifications.metainfo.xml.in:36
+msgid "Restore sidebar position"
+msgstr "Réinitialisation de la position de la barre latérale"
+
+#: data/notifications.metainfo.xml.in:37 data/notifications.metainfo.xml.in:49
+#: data/notifications.metainfo.xml.in:63 data/notifications.metainfo.xml.in:70
+#: data/notifications.metainfo.xml.in:76
+msgid "Updated translations"
+msgstr "Mise à jour des traductions"
+
+#: data/notifications.metainfo.xml.in:46
 msgid "Updated illustrations with better RTL support"
 msgstr "Illustrations mises à jour avec une meilleure prise en charge RTL"
 
-#: data/notifications.metainfo.xml.in:37
+#: data/notifications.metainfo.xml.in:47
 msgid "More responsive layout"
 msgstr "Mise en page plus réactive"
 
-#: data/notifications.metainfo.xml.in:38
+#: data/notifications.metainfo.xml.in:48
 msgid "Don't block settings when Do Not Disturb is active"
 msgstr ""
 "Ne pas bloquer les paramètres lorsque la fonction « Ne pas déranger » est "
 "activée"
 
-#: data/notifications.metainfo.xml.in:39 data/notifications.metainfo.xml.in:53
-#: data/notifications.metainfo.xml.in:60 data/notifications.metainfo.xml.in:66
-msgid "Updated translations"
-msgstr "Mise à jour des traductions"
-
-#: data/notifications.metainfo.xml.in:52
+#: data/notifications.metainfo.xml.in:62
 msgid "New illustrations"
 msgstr "Nouvelles illustrations"
