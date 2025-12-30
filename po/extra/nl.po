@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-30 17:20+0000\n"
-"PO-Revision-Date: 2025-10-31 17:55+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-31 18:55+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/nl/>\n"
 "Language: nl\n"
@@ -48,16 +48,16 @@ msgstr "Bijgewerkte vertalingen"
 
 #: data/notifications.metainfo.xml.in:46
 msgid "Updated illustrations with better RTL support"
-msgstr ""
+msgstr "Bijgewerkte illustraties met betere RTL-ondersteuning"
 
 #: data/notifications.metainfo.xml.in:47
 msgid "More responsive layout"
-msgstr ""
+msgstr "Meer responsieve lay-out"
 
 #: data/notifications.metainfo.xml.in:48
 msgid "Don't block settings when Do Not Disturb is active"
-msgstr ""
+msgstr "Instellingen niet blokkeren wanneer Niet Storen actief is"
 
 #: data/notifications.metainfo.xml.in:62
 msgid "New illustrations"
-msgstr ""
+msgstr "Nieuwe illustraties"
