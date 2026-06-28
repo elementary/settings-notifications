@@ -8,33 +8,33 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-30 17:20+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: data/notifications.metainfo.xml.in:10
 msgid "Notifications Settings"
-msgstr ""
+msgstr "Ρυθμίσεις ειδοποιήσεων"
 
 #: data/notifications.metainfo.xml.in:11
 msgid "Configure notification bubbles, sounds, and notification center"
-msgstr "Ρύθμιση των μπάνερ ειδοποιήσεων, ήχων και του κέντρου ειδοποιήσεων"
+msgstr "Ρύθμιση των μπάνερ ειδοποιήσεων, των ήχων και του κέντρου ειδοποιήσεων"
 
 #: data/notifications.metainfo.xml.in:26
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:44
 #: data/notifications.metainfo.xml.in:60
 msgid "Minor updates:"
-msgstr ""
+msgstr "Μικρές ενημερώσεις:"
 
 #: data/notifications.metainfo.xml.in:36
 msgid "Restore sidebar position"
@@ -44,7 +44,7 @@ msgstr ""
 #: data/notifications.metainfo.xml.in:63 data/notifications.metainfo.xml.in:70
 #: data/notifications.metainfo.xml.in:76
 msgid "Updated translations"
-msgstr ""
+msgstr "Ενημερωμένες μεταφράσεις"
 
 #: data/notifications.metainfo.xml.in:46
 msgid "Updated illustrations with better RTL support"
