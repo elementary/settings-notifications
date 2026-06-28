@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-30 17:20+0000\n"
-"PO-Revision-Date: 2017-08-31 23:21+0000\n"
-"Last-Translator: Grammatopoulos Athanasios-Vasi <darkthanos.gr@gmail.com>\n"
-"Language-Team: Greek <https://weblate.elementary.io/projects/switchboard/"
-"switchboard-plug-notifications/el/>\n"
+"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
+"notifications/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.16\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-01-30 05:53+0000\n"
 
 #: src/Plug.vala:21
@@ -21,34 +21,30 @@ msgstr "Ειδοποιήσεις"
 
 #: src/Plug.vala:22
 msgid "Configure notification bubbles, sounds, and notification center"
-msgstr "Ρύθμιση των μπάνερ ειδοποιήσεων, ήχων και του κέντρου ειδοποιήσεων"
+msgstr "Ρύθμιση των μπάνερ ειδοποιήσεων, των ήχων και του κέντρου ειδοποιήσεων"
 
 #: src/Plug.vala:44
 msgid "Apps with configurable notifications will appear here once installed."
 msgstr ""
+"Οι εφαρμογές με παραμετροποιήσιμες ειδοποιήσεις θα εμφανίζονται εδώ μετά την "
+"εγκατάστασή τους."
 
 #: src/Plug.vala:45
-#, fuzzy
-#| msgid ""
-#| "Notifications preferences are for configuring which apps make use of "
-#| "notifications, for changing how an app's notifications appear,\n"
-#| "and for setting when you do not want to be disturbed by notifications."
 msgid ""
 "Notifications preferences are for configuring which apps make use of "
 "notifications, for changing how an app's notifications appear, and for "
 "setting when you do not want to be disturbed by notifications."
 msgstr ""
-"Οι προτιμήσεις ειδοποιήσεων είναι για τον ορισμό των εφαρμογών που θα "
-"χρησιμοποιούν τις ειδοποιήσεις,\n"
-" για αλλαγή του τρόπου εμφάνισης των ειδοποιήσεων μιας εφαρμογής και για τον "
-"ορισμό του χρόνου που επιθυμείτε να μην ενοχλείστε από ειδοποιήσεις."
+"Οι προτιμήσεις ειδοποιήσεων επιτρέπουν τον καθορισμό των εφαρμογών που "
+"μπορούν να χρησιμοποιούν τις ειδοποιήσεις, την αλλαγή του τρόπου εμφάνισης "
+"των ειδοποιήσεων μιας εφαρμογής, καθώς και την επιλογή των περιπτώσεων όπου "
+"δεν επιθυμείτε να λαμβάνετε ειδοποιήσεις."
 
 #: src/Plug.vala:79 src/Widgets/Sidebar.vala:67
 msgid "Do Not Disturb"
 msgstr "Μην ενοχλείτε"
 
 #: src/Plug.vala:80
-#, fuzzy
 msgid "Notifications Center"
 msgstr "Κέντρο ειδοποιήσεων"
 
@@ -63,25 +59,20 @@ msgstr "Μπάνερ"
 
 #: src/Widgets/Sidebar.vala:31 src/Widgets/Sidebar.vala:45
 msgid "Search Apps"
-msgstr ""
+msgstr "Αναζήτηση εφαρμογών"
 
 #: src/Widgets/AppSettingsView.vala:33
-#, fuzzy
-#| msgid "Do Not Disturb"
 msgid "Do Not Disturb is active"
-msgstr "Μην ενοχλείτε"
+msgstr "Η λειτουργία «Μην ενοχλείτε» είναι ενεργή"
 
 #: src/Widgets/AppSettingsView.vala:36
-#, fuzzy
-#| msgid ""
-#| "System notifications, such as volume and display brightness, will be "
-#| "unaffected."
 msgid ""
 "Bubbles will be hidden and sounds will be silenced. System notifications, "
 "such as volume and display brightness, will be unaffected."
 msgstr ""
-"Ειδοποιήσεις συστήματος, όπως η ένταση του ήχου και η φωτεινότητα της "
-"οθόνης, θα μείνουν ανεπηρέαστες."
+"Τα μπάνερ θα αποκρύπτονται και οι ήχοι θα τεθούν σε σίγαση. Δεν θα "
+"επηρεαστούν οι ειδοποιήσεις συστήματος, όπως η ένταση του ήχου και η "
+"φωτεινότητα της οθόνης."
 
 #: src/Widgets/AppSettingsView.vala:48
 msgid ""
@@ -97,7 +88,7 @@ msgstr "Ήχοι"
 
 #: src/Widgets/AppSettingsView.vala:54
 msgid "Sounds play once when a new notification arrives."
-msgstr "Οι ήχοι παίζουν μια φορά όταν λαμβάνετε μια νέα ειδοποίηση."
+msgstr "Οι ήχοι αναπαράγονται μία φορά όταν λαμβάνετε νέα ειδοποίηση."
 
 #: src/Widgets/AppSettingsView.vala:59 src/Widgets/AppEntry.vala:77
 msgid "Notification Center"
@@ -105,11 +96,11 @@ msgstr "Κέντρο ειδοποιήσεων"
 
 #: src/Widgets/AppSettingsView.vala:60
 msgid "Show missed notifications in Notification Center."
-msgstr "Εμφάνιση χαμένων ειδοποιήσεων στο κέντρο ειδοποιήσεων"
+msgstr "Εμφάνιση χαμένων ειδοποιήσεων στο κέντρο ειδοποιήσεων."
 
 #: src/Widgets/AppEntry.vala:81
 msgid "Disabled"
-msgstr "Απενεργοποιημένα"
+msgstr "Απενεργοποιημένο"
 
 #~ msgid "Nothing to do here"
 #~ msgstr "Δεν υπάρχει κάτι εδώ"
