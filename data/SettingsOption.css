@@ -47,17 +47,6 @@ settingspage.notifications .card.bubbles {
     background-position: calc(100% - 3px) 12px, bottom, center;
 }
 
-settingspage.notifications .card.bubbles.dark {
-    background-image:
-        url("resource:///io/elementary/settings/notifications/bubble-dark.svg"),
-        url("resource:///io/elementary/settings/notifications/dock-dark.svg"),
-        linear-gradient(
-            to bottom,
-            shade(@selected_bg_color, 1.1),
-            @selected_bg_color
-        );
-}
-
 settingspage.notifications .card.bubbles:dir(rtl) {
     background-position: 3px 12px, bottom, center;
 }
@@ -76,17 +65,6 @@ settingspage.notifications .card.sounds {
     color: @selected_fg_color;
 }
 
-settingspage.notifications .card.sounds.dark {
-    background-image:
-        -gtk-icontheme("audio-volume-high-symbolic"),
-        url("resource:///io/elementary/settings/notifications/dock-dark.svg"),
-        linear-gradient(
-            to bottom,
-            shade(@selected_bg_color, 1.1),
-            @selected_bg_color
-        );
-}
-
 settingspage.notifications .card.notify-center {
     background-image:
         url("resource:///io/elementary/settings/notifications/notify-center.svg"),
@@ -100,17 +78,41 @@ settingspage.notifications .card.notify-center {
     background-position: calc(100% - 3px) 3px, bottom, center;
 }
 
-settingspage.notifications .card.notify-center.dark {
-    background-image:
-        url("resource:///io/elementary/settings/notifications/notify-center-dark.svg"),
-        url("resource:///io/elementary/settings/notifications/dock-dark.svg"),
-        linear-gradient(
-            to bottom,
-            shade(@selected_bg_color, 1.1),
-            @selected_bg_color
-        );
-}
-
 settingspage.notifications .card.notify-center:dir(rtl) {
     background-position: 3px 3px, bottom, center;
+}
+
+@media (prefers-color-scheme: dark) {
+    settingspage.notifications .card.bubbles {
+        background-image:
+            url("resource:///io/elementary/settings/notifications/bubble-dark.svg"),
+            url("resource:///io/elementary/settings/notifications/dock-dark.svg"),
+            linear-gradient(
+                to bottom,
+                shade(@selected_bg_color, 1.1),
+                @selected_bg_color
+            );
+    }
+
+    settingspage.notifications .card.sounds {
+        background-image:
+            -gtk-icontheme("audio-volume-high-symbolic"),
+            url("resource:///io/elementary/settings/notifications/dock-dark.svg"),
+            linear-gradient(
+                to bottom,
+                shade(@selected_bg_color, 1.1),
+                @selected_bg_color
+            );
+    }
+
+    settingspage.notifications .card.notify-center {
+        background-image:
+            url("resource:///io/elementary/settings/notifications/notify-center-dark.svg"),
+            url("resource:///io/elementary/settings/notifications/dock-dark.svg"),
+            linear-gradient(
+                to bottom,
+                shade(@selected_bg_color, 1.1),
+                @selected_bg_color
+            );
+    }
 }
