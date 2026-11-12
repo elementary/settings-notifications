@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-30 17:20+0000\n"
-"PO-Revision-Date: 2026-10-24 20:04+0000\n"
+"PO-Revision-Date: 2026-11-13 21:04+0000\n"
 "Last-Translator: CodeBeats <nicholai67@hotmail.com>\n"
 "Language-Team: Danish <https://l10n.elementaryos.org/projects/settings/"
 "notifications-plug-extra/da/>\n"
@@ -34,7 +34,7 @@ msgstr ""
 #: data/notifications.metainfo.xml.in:34 data/notifications.metainfo.xml.in:44
 #: data/notifications.metainfo.xml.in:60
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre opdateringer:"
 
 #: data/notifications.metainfo.xml.in:36
 msgid "Restore sidebar position"
