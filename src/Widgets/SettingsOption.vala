@@ -24,9 +24,6 @@ public class Widgets.SettingsOption : Gtk.Grid {
     public string title { get; construct; }
     public string description { get; construct; }
 
-    private Gtk.Grid card;
-    private Gtk.Settings gtk_settings;
-
     public SettingsOption (string image_path, string title, string description) {
         Object (
             image_path: image_path,
@@ -36,12 +33,11 @@ public class Widgets.SettingsOption : Gtk.Grid {
     }
 
     construct {
-        card = new Gtk.Grid () {
+        var card = new Gtk.Grid () {
             halign = START
         };
         card.add_css_class (image_path);
-        card.add_css_class (Granite.STYLE_CLASS_CARD);
-        card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        card.add_css_class (Granite.CssClass.CARD);
 
         var widget = new Gtk.Switch () {
             valign = START
@@ -59,21 +55,6 @@ public class Widgets.SettingsOption : Gtk.Grid {
         attach (widget, 1, 0);
         attach (card, 0, 1, 2);
 
-        gtk_settings = Gtk.Settings.get_default ();
-        gtk_settings.notify["gtk-application-prefer-dark-theme"].connect (() => {
-            update_image_resource ();
-        });
-
-        update_image_resource ();
-
         bind_property ("active", widget, "active", SYNC_CREATE | BIDIRECTIONAL);
-    }
-
-    private void update_image_resource () {
-        if (gtk_settings.gtk_application_prefer_dark_theme) {
-            card.add_css_class ("dark");
-        } else {
-            card.remove_css_class ("dark");
-        }
     }
 }

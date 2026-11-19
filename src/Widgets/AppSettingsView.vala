@@ -23,10 +23,17 @@ public class Widgets.AppSettingsView : Switchboard.SettingsPage {
     private SettingsOption remember_option;
 
     static construct {
-        var css_provider = new Gtk.CssProvider ();
+        var gtk_settings = Gtk.Settings.get_for_display (Gdk.Display.get_default ());
+        var css_provider = new Gtk.CssProvider () {
+            prefers_color_scheme = gtk_settings.gtk_interface_color_scheme
+        };
         css_provider.load_from_resource ("/io/elementary/settings/notifications/SettingsOption.css");
 
         Gtk.StyleContext.add_provider_for_display (Gdk.Display.get_default (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+        gtk_settings.notify["gtk-interface-color-scheme"].connect (() => {
+            css_provider.prefers_color_scheme = gtk_settings.gtk_interface_color_scheme;
+        });
     }
 
     construct {
